@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kyle Potter - Linux Systems Engineer</title>
+<title>Kyle Potter - Sr. Cloud Operations Engineer</title>
 
 <meta name="viewport" content="width=device-width"/>
 <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
@@ -24,7 +24,7 @@
 		
 		<div id="name">
 			<h1 class="quickFade delayTwo">Kyle Potter</h1>
-			<h2 class="quickFade delayThree">Linux Systems Engineer</h2>
+			<h2 class="quickFade delayThree">Sr. Cloud Operations Engineer</h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
@@ -45,13 +45,38 @@
 				</div>
 				
 				<div class="sectionContent">
-					<p>A Cloud/Linux engineer with a strong background in AWS, a passion for Linux, and a desire to automate things!</p>
+					<p>Cloud Ops Engineer with over 5+ years experience working with AWS and Linux. A DevOps enthusiast and Certified Kubernetes Administrator who works with IaC tools such as Terraform and CloudFormation to deploy infrastructure. I also have experience with webserver administration, containers, virtualization, and scripting for automation purposes.</p>
 				</div>
 			</article>
 			<div class="clear"></div>
 		</section>
 		
-		
+		<section>
+			<div class="sectionTitle">
+				<h1>Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Amazon Web Services</li>
+					<li>Linux</li>
+					<li>BASH</li>
+					<li>Kubernetes</li>
+					<li>Docker</li>
+					<li>Terraform</li>
+					<li>Python</li>
+					<li>Ansible</li>
+					<li>Git</li>
+					<li>CI|CD</li>
+					<li>Django</li>
+					<li>PostgreSQL</li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+			
+		</section>
+
 		<section>
 			<div class="sectionTitle">
 				<h1>Experience</h1>
@@ -59,50 +84,26 @@
 
 			<div class="sectionContent">
 				<article>
-					<h2>Jr. Linux Systems Engineer</h2>
-					<h3>Two Barrels</h3>
-					<p class="subDetails"> December 2020 - present</p>
+					<b><h2>Senior Cloud Operations Engineer</h2><b>
+					<h3>2nd Watch - Libery Lake, WA </h3>
+					<p class="subDetails">February 2022 - Present</p>
+					<br>
+					<h2>Linux Systems Engineer</h2>
+					<h3>Two Barrels - Spokane, WA</h3>
+					<p class="subDetails"> December 2020 - February 2022</p>
 					<br>
 					<b><h2>Senior Cloud Operations Engineer</h2><b>
-					<h3>2nd Watch</h3>
+					<h3>2nd Watch - Libery Lake, WA</h3>
 					<p class="subDetails">September 2019 - December 2020</p>
-
-				</article>
-				<br/>
-				<article>
+					<br>
 					<h2>Cloud Operations Engineer</h2>
-					<h3>2nd Watch</h3>
+					<h3>2nd Watch - Libery Lake, WA</h3>
 					<p class="subDetails">April 2018 - September 2019</p>
-
-				</article>
-
 				</article>
 			</div>
 			<div class="clear"></div>
 		</section>
 		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Key Skills</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>Amazon Web Services</li>
-					<li>Linux Administration</li>
-					<li>AWS CLI</li>
-					<li>Terraform</li>
-					<li>Ansible</li>
-					<li>BASH</li>
-					<li>Git</li>
-					<li>Windows/Mac OS</li>
-					<li>Troubleshooting</li>
-
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
 		
 		<section>
 		<div class="sectionTitle">
@@ -110,6 +111,12 @@
 		</div>
 		
 		<div class="sectionContent">
+			<article>
+				<h1>CERTIFIED KUBERNETES ADMINISTRATOR - CKA</h1>
+				<h3>Linux Foundation, License ID: LF-s8tp988afd</h3>
+				<p class="subDetails">June 2022 - June 2025</p>
+			</article>
+			<br/>
 			<article>
 				<h1>CERTIFIED AWS SOLUTIONS ARCHITECT – ASSOCIATE</h1>
 				<h3>Amazon Web Services, License ID: V3FY0TSCBFFEQQ57</h3>
@@ -152,6 +159,36 @@
 					<h2>Shadle Park High School</h2>
 					<h3>High School Diploma</h3>
 					<p class="subDetails">September 2008 - June 2011</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Senior Engineer For Enterprise Client</h2>
+					<br>
+					<p>A Cloud Engineer for a large enterprise client hosted in AWS with over 70 managed accounts.</p>
+					<p>Support for this client includes deploying IAM roles with Terraform, as well as deploying VPC Flow Logs, AWS Config rules and running SSM documents. 
+					<p>I have managed SSM agent installs for instances and have run SSM documents that provide automated solutions for our client across multiple servers. I have provisioned AWS VPC peering across accounts using Transit Gateway, configured by a centralized Transit Gateway account. I have provided customer access to these accounts via AWS SSO, managed with AWS Organizations that governs all accounts.</p>
+				</article>
+				<br/>
+				<article>
+					<h2>Drone CI</h2>
+					<br>
+					<p>Provisioned a CI/CD application known as Drone CI. This application was deployed to an EKS cluster using Terraform. I used Docker containers for the Drone server and PostgreSQL backend, which were deployed as pods within the cluster. </p>
+					<p>I also deployed a Load Balancer service pod which creates an ALB and exposes the application to register with a Bitbucket repository as an OAuth application. The Drone server utilizes a Kubernetes runner service for scheduled pipelines and would authenticate to this runner using a service account, a shared secret and RBAC roles.</p>
+				</article>
+				<article>
+					<h2>VPN Web Application</h2>
+					<br>
+					<p>Created a web application with Python using the Django Web Framework that kept track of users that are currently connected to the company VPN. </p>
+					<p>This application would also gather information from an inventory database, such as the user’s name, IP address and Laptop Serial ID and sort that information as a dictionary with Python. I would then display that data on a webpage in a Graph, formatted with HTML/CSS.</p>
 				</article>
 			</div>
 			<div class="clear"></div>
