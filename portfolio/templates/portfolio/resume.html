@@ -45,7 +45,7 @@
 				</div>
 				
 				<div class="sectionContent">
-					<p>Cloud Ops Engineer with over 5+ years experience working with AWS and Linux. A DevOps enthusiast and Certified Kubernetes Administrator who works with IaC tools such as Terraform and CloudFormation to deploy infrastructure. I also have experience with webserver administration, containers, virtualization, and scripting for automation purposes.</p>
+					<p>Cloud Ops Engineer with over 5 years experience working with AWS and Linux. A DevOps enthusiast and Certified Kubernetes Administrator who works with IaC tools such as Terraform and CloudFormation to deploy infrastructure. I also have experience with webserver administration, containers, virtualization, and scripting for automation purposes.</p>
 				</div>
 			</article>
 			<div class="clear"></div>
@@ -74,7 +74,29 @@
 				</ul>
 			</div>
 			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+			</div>
 			
+			<div class="sectionContent">
+				<br/>
+				<article>
+					<h2>Drone CI</h2>
+					<br>
+					<p>Provisioned a CI/CD application known as Drone CI. This application was deployed to an EKS cluster using Terraform. I used Docker containers for the Drone server and PostgreSQL backend, which were deployed to pods within the cluster. </p>
+					<p>I also deployed a Load Balancer service which creates an ALB in AWS and exposes the application to register with a Bitbucket repository as an OAuth application. The Drone server utilizes a Kubernetes runner service for scheduled pipelines and would authenticate to this runner using a service account, a shared secret and RBAC roles.</p>
+				</article>
+				<article>
+					<h2>Django Web Application</h2>
+					<br>
+					<p>Created a web application with Python using the Django Web Framework that kept track of users that are currently connected to the company VPN. </p>
+					<p>This application would also gather information from an inventory database, such as the user’s name, IP address and Laptop Serial ID and sort that information as a dictionary with Python. I would then display that data on a webpage in a Graph, formatted with HTML/CSS.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
 		</section>
 
 		<section>
@@ -180,37 +202,6 @@
 			</div>
 			<div class="clear"></div>
 		</section>
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Projects</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Senior Engineer For Enterprise Client</h2>
-					<br>
-					<p>A Cloud Engineer for a fortune 500 company hosted in AWS with over 70 managed accounts.</p>
-					<p>Support for this client includes deploying and maintaining AWS resources with Terraform such as EC2, VPC, IAM, RDS, and Lambda. Terraform is also used to integrate services such as New Relic, Qualys and Sentinel One. Resource tagging standards and compliance is enforced using AWS Config and Cloud Custodian policies.</p> 
-					<p>I have managed SSM agent installs for instances and have run SSM documents that provide automated solutions for our client across multiple servers. I have provisioned AWS VPC peering across accounts using Transit Gateway, configured by a centralized Transit Gateway account. I have provided customer access to these accounts via AWS SSO, managed with AWS Organizations that governs all accounts.</p>
-				</article>
-				<br/>
-				<article>
-					<h2>Drone CI</h2>
-					<br>
-					<p>Provisioned a CI/CD application known as Drone CI. This application was deployed to an EKS cluster using Terraform. I used Docker containers for the Drone server and PostgreSQL backend, which were deployed to pods within the cluster. </p>
-					<p>I also deployed a Load Balancer service which creates an ALB in AWS and exposes the application to register with a Bitbucket repository as an OAuth application. The Drone server utilizes a Kubernetes runner service for scheduled pipelines and would authenticate to this runner using a service account, a shared secret and RBAC roles.</p>
-				</article>
-				<article>
-					<h2>VPN Web Application</h2>
-					<br>
-					<p>Created a web application with Python using the Django Web Framework that kept track of users that are currently connected to the company VPN. </p>
-					<p>This application would also gather information from an inventory database, such as the user’s name, IP address and Laptop Serial ID and sort that information as a dictionary with Python. I would then display that data on a webpage in a Graph, formatted with HTML/CSS.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
 	</div>
 </div>
 
