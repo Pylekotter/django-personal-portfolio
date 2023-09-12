@@ -24,12 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 with open('secret_key.txt') as f:
     SECRET_KEY = f.read().strip()
 
+# SECRET_KEY = "2%cdv0chc9xr9a^2h68d5zti)cs%pn&(+&#-cc*)cz^h2og_!="
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = False
 
 ALLOWED_HOSTS = ['kylepotter92.pythonanywhere.com', 'kylepotter.xyz']
-
-
 # Application definition
 
 INSTALLED_APPS = [
